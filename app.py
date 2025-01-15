@@ -23,9 +23,9 @@ if arquivo:
         # Dados para a requisição da URL assinada
         dados_requisicao = {
             "object_key": nome_arquivo,  # Adicionar object_key aqui
-            "caloric": caloric,
-            "idade": age,
-            "unidade": unid,
+            # "caloric": caloric,
+            # "idade": age,
+            # "unidade": unid,
             "documentType": document_type
         }
 
