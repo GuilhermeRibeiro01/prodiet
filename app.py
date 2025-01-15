@@ -3,14 +3,14 @@ import requests
 import base64
 import os
 
-ENDPOINT_URL = "https://5rotm3ugf5.execute-api.us-east-1.amazonaws.com"
+ENDPOINT_URL = "https://w6ij5jby9b.execute-api.us-east-1.amazonaws.com"
 
 st.title("Upload de documento")
 
 # product_id = st.selectbox("Tipo de seguro", ["Vida", "Automóvel"])
-caloric = st.selectbox("Calorias", ["normocalorica", "hipercalorica"])
-age = st.selectbox("Idade", ["adulto", "criança"])
-unid = st.selectbox("Unidade", ["litro", "grama", "mililitro"])
+# caloric = st.selectbox("Calorias", ["normocalorica", "hipercalorica"])
+# age = st.selectbox("Idade", ["adulto", "criança"])
+# unid = st.selectbox("Unidade", ["litro", "grama", "mililitro"])
 document_type = st.selectbox("Tipo de Documento", ["txt","pdf", "csv"])
 
 arquivo = st.file_uploader("Escolha um arquivo", type=['txt','pdf', 'csv'])
