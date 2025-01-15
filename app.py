@@ -11,9 +11,9 @@ st.title("Upload de documento")
 # caloric = st.selectbox("Calorias", ["normocalorica", "hipercalorica"])
 # age = st.selectbox("Idade", ["adulto", "criança"])
 # unid = st.selectbox("Unidade", ["litro", "grama", "mililitro"])
-document_type = st.selectbox("Tipo de Documento", ["txt","pdf", "csv"])
+document_type = st.selectbox("Tipo de Documento", ["txt","pdf", "csv", "xlsx"])
 
-arquivo = st.file_uploader("Escolha um arquivo", type=['txt','pdf', 'csv'])
+arquivo = st.file_uploader("Escolha um arquivo", type=['txt','pdf', 'csv', 'xlsx'])
 
 if arquivo:
     nome_arquivo = os.path.basename(arquivo.name)
