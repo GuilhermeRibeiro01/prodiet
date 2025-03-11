@@ -3,7 +3,7 @@ import requests
 import base64
 import os
 
-ENDPOINT_URL = "https://w6ij5jby9b.execute-api.us-east-1.amazonaws.com"
+ENDPOINT_URL = "https://fosfxyjbq3.execute-api.us-east-1.amazonaws.com"
 
 st.title("Upload de documento")
 
